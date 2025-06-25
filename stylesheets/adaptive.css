@@ -385,6 +385,11 @@ MEDAIQUERIES
     gap: 0 15px;
   }
 
+  .merch-post_masonry div.masonry-card:after {
+    top: 35%;
+    font-size: 25px;
+  }
+
   .merch-post_masonry .masonry-card_title h4 {
     font-size: 14px;
     line-height: 120%;
@@ -708,10 +713,14 @@ MEDAIQUERIES
     padding-top: 20px;
   }
 
+  #events .sidebar_context {
+    padding-bottom: 25px;
+  }
+
   .events-post {
     padding-inline: 0;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 30px;
   }
 
   .events-post_header h1 {
@@ -720,6 +729,54 @@ MEDAIQUERIES
 
   .events-post_header h1 span {
     font-size: 67px;
+  }
+
+  .events-post_header {
+    display: none;
+  }
+
+  .events-post_slider .swiper {
+    margin-top: 0;
+  }
+
+  .events-post_slider .swiper-wrapper {
+    padding-top: 0;
+  }
+
+  .events-post_slider_content #content-1,
+  .events-post_slider_content #content-2,
+  .events-post_slider_content #content-3,
+  .events-post_slider_content #content-4,
+  .events-post_slider_content #content-5 {
+    padding-bottom: 0;
+    margin-top: 20px;
+    padding-inline: 0;
+  }
+
+  .events-post_slider_content #content-1 p,
+  .events-post_slider_content #content-2 p,
+  .events-post_slider_content #content-3 p,
+  .events-post_slider_content #content-4 p,
+  .events-post_slider_content #content-5 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .events-post_slider_content #content-1 strong,
+  .events-post_slider_content #content-2 strong,
+  .events-post_slider_content #content-3 strong,
+  .events-post_slider_content #content-4 strong,
+  .events-post_slider_content #content-5 strong {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  .events-post_slider_content #content-1 .btn,
+  .events-post_slider_content #content-2 .btn,
+  .events-post_slider_content #content-3 .btn,
+  .events-post_slider_content #content-4 .btn,
+  .events-post_slider_content #content-5 .btn {
+    margin-bottom: 0;
   }
 
   .footer {
@@ -1028,7 +1085,7 @@ MEDAIQUERIES
   }
 
   .merch-post:first-child {
-    padding-top: 0;
+    padding-top: 0 !important;
   }
 
   .merch-post:last-child {
@@ -1059,6 +1116,13 @@ MEDAIQUERIES
   .merch-post_masonry {
     grid-template-columns: 1fr;
     row-gap: 20px;
+    padding-top: 0;
+    margin-top: -20px;
+  }
+
+  .merch-post_masonry div.masonry-card:after {
+    top: 45%;
+    font-size: 40px;
   }
 
   .merch-post_masonry .masonry-card_title h4 {
@@ -1086,6 +1150,10 @@ MEDAIQUERIES
   .sidebar_header {
     padding-top: 12px;
     padding-bottom: 35px;
+  }
+
+  .sidebar_logo_link {
+    margin-right: 0;
   }
 
   .sidebar_context {

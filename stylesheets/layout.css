@@ -11,7 +11,6 @@ h6 {
   font-family: var(--font-title);
 }
 
-
 /* ------------------------------------------------------------------------------------------------------------------------------
 BASE
 --------------------------------------------------------------------------------------------------------------------------------*/
@@ -733,6 +732,10 @@ body {
 Стили для страницы Event
 ---------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+#events .sidebar:before {
+  content: none;
+}
+
 .events-post {
   padding-inline: 30px;
   padding-top: 60px;
@@ -798,9 +801,8 @@ body {
 .events-post_slider_content #content-4,
 .events-post_slider_content #content-5 {
   display: none;
-  padding-top: 170px;
-  margin-top: 50px;
   padding: 20px;
+  margin-top: 50px;
 }
 
 .events-post_slider_content #content-1 p,
@@ -1451,14 +1453,8 @@ MAINPAGE
   padding-top: 60px;
 }
 
-.merch-post_banner p span,
-.merch-post_banner p a{
-  color: var(--black);
+.merch-post_banner p span {
   text-decoration: underline;
-}
-
-.merch-post_banner p a:hover{
-  text-decoration: none;
 }
 
 .merch-post_masonry {
