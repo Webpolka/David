@@ -1453,8 +1453,13 @@ MAINPAGE
   padding-top: 60px;
 }
 
-.merch-post_banner p span {
+.merch-post_banner p span ,
+.merch-post_banner p a{
   text-decoration: underline;
+}
+
+.merch-post_banner p a:hover{
+  text-decoration: none;
 }
 
 .merch-post_masonry {
