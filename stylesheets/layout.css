@@ -1455,6 +1455,7 @@ MAINPAGE
 
 .merch-post_banner p span ,
 .merch-post_banner p a{
+    color: var(--black);
   text-decoration: underline;
 }
 
