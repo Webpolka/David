@@ -1457,6 +1457,10 @@ MAINPAGE
   text-decoration: underline;
 }
 
+.merch-post_banner p a:hover{
+  text-decoration: none;
+}
+
 .merch-post_masonry {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
